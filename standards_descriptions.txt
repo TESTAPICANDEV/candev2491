@@ -1,0 +1,49 @@
+1.1.1 Personnel and training (CIP-004)
+Organization position on acceptable background investigations
+Identification of possible disciplinary action for violating this policy
+Account management
+
+1.1.2 Electronic Security Perimeters (CIP-005) including Interactive Remote Access
+Organization stance on use of wireless networks
+Identification of acceptable authentication methods
+Identification of trusted and untrusted resources
+Monitoring and logging of ingress and egress at Electronic Access Points
+Maintaining up-to-date anti-malware software before initiating Interactive Remote Access
+Maintainingup-to-date patch levels for operating systemsand applications used to initiate Interactive Remote Access
+DisablingVPN “split-tunneling” or “dual-homed” workstations before initiating Interactive Remote Access
+For vendors, contractors, or consultants: include language in contracts that requires adherence to the Responsible Entity’s Interactive Remote Accesscontrols
+
+1.1.3 Physical security of BES Cyber Systems (CIP-006)
+Strategy for protecting Cyber Assets from unauthorized physicalaccess
+Acceptable physical access control methods
+Monitoring and logging of physical ingress
+
+1.1.4 System security management (CIP-007)
+Strategies for system hardening
+Acceptable methods of authentication and access control
+Guidelinesand Technical BasisPage 26of 40
+Password policies including length, complexity, enforcement, prevention of brute force attempts
+Monitoring and logging of BES Cyber Systems
+
+1.1.5 Incident reporting and response planning (CIP-008)
+Recognition of Cyber Security Incidents
+Appropriate notifications upon discovery of an incident
+Obligations to report Cyber Security Incidents
+
+1.1.6 Recovery plans for BES Cyber Systems (CIP-009)
+Availability of spare components
+Availability of system backups
+
+1.1.7 Configuration change management and vulnerability assessments (CIP-010)
+Initiation of change requests
+Approval of changes
+Break-fix processes
+
+1.1.8 Information protection (CIP-011)
+Information access control methods
+Notification of unauthorized information disclosure
+Information access on a need-to-know basis
+
+1.1.9 Declaring and responding to CIP Exceptional Circumstances
+Processes to invoke special procedures in the event of a CIP Exceptional Circumstance
+Processes to allow for exceptions to policy that do not violate CIP requirements
