@@ -1,3 +1,3 @@
 plant_name,company,standard,effective_date,desc,location,dist_centers
-Portage Power, Hydro Ottawa, CIP-003-ABS, Cybersecurity: something something,(45.4215,75.6972), [(45.43971,-75.41546),(45.29499,-75.41511),(45.29523,-75.67982),(45.44164,-75.67879)]
-Nuclear Station1, Bruce Power, CIP-004-ABS.1, Cybersecurity: something something, (43.6532,79.3832), [(43.65481,-79.29274),(43.89972,-79.29274),(43.89873,-79.77477),(43.65679,-79.77614)]
+Portage Power, Hydro Ottawa, [CIP-003-ABS,CIP-003-ABS],(45.4215,75.6972), [(45.43971,-75.41546),(45.29499,-75.41511),(45.29523,-75.67982),(45.44164,-75.67879)]
+Nuclear Station1, Bruce Power, [CIP-004-ABS.1,CIP-003-ABS], (43.6532,79.3832), [(43.65481,-79.29274),(43.89972,-79.29274),(43.89873,-79.77477),(43.65679,-79.77614)]
