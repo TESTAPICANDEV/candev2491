@@ -1,13 +1,19 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
-		System.out.println("beginning");
+		/**System.out.println("beginning");
 		Boolean a = false;
 		LinkedList l = new LinkedList();
 		List<String> zips = new ArrayList<String>();
@@ -36,6 +42,68 @@ public class main {
 		    	l.add(zip);
 		    	System.out.println(zip);
 		    }
-		}
+		}**/
+		
+		BufferedReader csvReader = new BufferedReader(new FileReader("C:/Users/1/Desktop/CAN/candev2491/plant_output_aggregator/cip_standards.csv"));
+		
+		String row;
+		FileWriter csvWriter = new FileWriter("C:/Users/1/Desktop/CAN/candev2491/plant_output_aggregator/cip_standardsOut.csv");
+
+		try {
+		 while ((row = csvReader.readLine()) != null) {
+		    String[] data = row.split(",");
+		    System.out.println(data[4]);
+		    
+		    csvWriter.append(data[0]);
+		    csvWriter.append(",");
+		    csvWriter.append(data[1]);
+		    csvWriter.append(",");
+		    csvWriter.append(data[2]);
+		    csvWriter.append(",");
+		    csvWriter.append(data[3]);
+		    csvWriter.append(",");
+
+		    String d=data[4];
+		    try {
+		    
+		    int first = d.indexOf("is");
+		    int second = d.indexOf("is", first + 1)+1;
+		    
+		    int i=second;
+		    if (i ==-1) {
+			    i = d.indexOf("-", d.indexOf("-") + 1)+1;
+		    }
+		    d.substring(i, i+5);
+		    System.out.println (d);
+		    if (i!=-1) {
+		    csvWriter.append( d.substring(i, i+5));
+		    }else {
+		    	//do nothing
+		    	
+		    }
+
+		    }catch (Exception e) {
+		    	//do nothing
+		    }		    
+		    
+		    
+		    csvWriter.append(",");
+		    csvWriter.append(data[5]);
+		    csvWriter.append(",");
+			csvWriter.append("\n");
+		 }
+		 }
+			
+		
+
+		 catch(Exception e) {
+
+				csvReader.close();
+
+				csvWriter.flush();
+				csvWriter.close();		    
+				}	
+		
+		
 	}
-}
+	}
