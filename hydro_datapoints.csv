@@ -1,8 +1,20 @@
-Name,Date,,CIP-001-2a ,CIP-002,CIP-003,CIP-004,CIP-004-3a,CIP-005,CIP-005-3a,CIP-006-3c,CIP-007,CIP-008,CIP-009,CIP-010,CIP-11,CIP-14
-BC Hydro,2014,,x,x,x,x,,x,x,x,x,x,x,,,
-BC Hydro,2015,,x,x,x,x,,x,x,x,x,x,x,,,
-BC Hydro,2016,,x,x,x,x,,x,x,x,x,x,x,,,
-BC Hydro,2017,,x,x,x,x,,x,x,x,x,x,x,,,
-Hydro One,2015,,x,,,,,,,,,,,,,
-Hydro Quebec,2017,,x,x,x,,x,x,x,x,x,x,x,,,
-Hydro Quebec,2016,,,x,x,x,,x,,x,x,x,x,x,x,x
+ipl,location,Owner,Date,CIP-001-2a ,CIP-002,CIP-003,CIP-004,CIP-004-3a,CIP-005,CIP-005-3a,CIP-006-3c,CIP-007,CIP-008,CIP-009,CIP-010,CIP-11,CIP-14
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2014,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",x,x,x,,x,x,x,x,x,x,,,
+2L112,"49.035527, -117.901895",BC Hydro,2014,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",,,,,,,,,,,,,
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2015,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",x,x,x,,x,x,x,x,x,x,,,
+2L112,"49.035527, -117.901895",BC Hydro,2015,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",x,x,x,,x,x,x,x,x,x,,,
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2016,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",x,x,x,,x,x,x,x,x,x,,,
+2L112,"49.035527, -117.901895",BC Hydro,2016,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",,,,,,,,,,,,,
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2017,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",x,x,x,,x,x,x,x,x,x,,,
+2L112,"49.035527, -117.901895",BC Hydro,2017,"[CIP-001-2a, CIP-002, CIP-003, CIP-004, CIP-005, CIP-005-3a, CIP-006-3c, CIP-007, CIP-008, CIP-009]",,,,,,,,,,,,,
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2018,,,,,,,,,,,,,,
+2L112,"49.035527, -117.901895",BC Hydro,2018,,,,,,,,,,,,,,
+"5L51,5L52","49.015547, -122.759846 ",BC Hydro,2019,,,,,,,,,,,,,,
+2L112,"49.035527, -117.901895",BC Hydro,2019, ,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+"L4D, L51D, PA301, PA302, L33P, L34P, J5D, B3N, BP76, BP27, BSC 105N, BSC 105S, BL104, BSH-106",,Hydro One,2015,x,,,,,,,,,,,,,
+"Fort Frances East, Fort Frances West, Line 7",,Hydro  One Networks,,,,,,,,,,,,,,,
+"7040, 451,452, 1400",,Hydro Quebec,2017,x,x,x,,x,x,x,x,x,x,x,,,
+"7040, 451,452, 1400",,Hydro Quebec,2016,,x,x,x,,x,,x,x,x,x,x,x,x
+B10T,,Saskatchewan Power Corporation,,,,,,,,,,,,,,,
+"Y2OP, R40M",,Manitoba Hydro,,,,,,,,,,,,,,,
